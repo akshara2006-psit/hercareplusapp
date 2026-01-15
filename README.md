@@ -1,50 +1,155 @@
-# Welcome to your Expo app 👋
+ Women Wellness & Mental Health App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A comprehensive React Native (Expo) based mobile application focused on women’s health, mental wellness, nutrition, safety, and community support.
+This app provides personalized diet plans, mental relaxation tools, SOS emergency features, and a supportive community forum.
 
-## Get started
+✨ Features
+    Mental Wellness Hub
 
-1. Install dependencies
+Guided breathing exercises
 
-   ```bash
-   npm install
-   ```
+Mindfulness & mental health tips
 
-2. Start the app
+YouTube-based meditation & relaxation videos
 
-   ```bash
-   npx expo start
-   ```
+Stress relief and self-care activities
 
-In the output, you'll find options to open the app in a
+ Nutrition & Diet Planner
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Personalized diet plans based on health conditions:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+General
 
-## Get a fresh project
+PCOD
 
-When you're ready, run:
+Pregnancy
 
-```bash
-npm run reset-project
-```
+Fitness
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Vegetarian / Non-Vegetarian preference support
 
-## Learn more
+Multiple diet plans per condition
 
-To learn more about developing your project with Expo, look at the following resources:
+“Generate New Plan” option for variety
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Hydration & nutrition tips
 
-## Join the community
+Persistent data using AsyncStorage
 
-Join our community of developers creating universal apps.
+ SOS & Emergency Support
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+One-tap SOS alert simulation
+
+Quick emergency helpline access
+
+Emergency contact calling
+
+Women helpline integration
+
+ Community Forum
+
+Share thoughts, experiences, and wellness tips
+
+Like and interact with posts
+
+Posts persist even after app restart
+
+Safe, supportive environment
+
+ Authentication Ready
+
+Login & Signup screen support (can be extended with backend)
+
+User-specific content handling
+
+Tech Stack
+
+Frontend: React Native (Expo)
+
+State Management: React Hooks
+
+Storage: AsyncStorage
+
+Media: YouTube links, Expo Audio
+
+Navigation: React Navigation
+
+UI: Custom styled components
+
+📂 Project Structure
+├── screens/
+│   ├── MentalHealthScreen.js
+│   ├── NutritionScreen.js
+│   ├── SosSupportScreen.js
+│   ├── CommunityScreen.js
+│   ├── LoginScreen.js
+│   └── SignupScreen.js
+├── assets/
+├── App.js
+├── package.json
+└── README.md
+
+ Installation & Setup
+Prerequisites
+
+Node.js
+
+Expo CLI
+
+Android Studio / Xcode (optional for emulator)
+
+Steps
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate to project folder
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Start the Expo server
+npx expo start
+
+
+Scan the QR code using Expo Go app or run on an emulator.
+
+ Screens Overview
+
+ Mental Wellness
+
+ Nutrition & Diet
+
+ SOS Emergency
+
+ Community Forum
+
+ Login & Signup
+
+ Future Enhancements
+
+Backend authentication (Firebase / Node.js)
+
+Real-time chat in community
+
+Push notifications for wellness reminders
+
+Location-based SOS alerts
+
+AI-based diet and mental health suggestions
+
+Doctor / counselor booking module
+
+ Contribution
+
+Contributions are welcome!
+Feel free to fork this repository and submit pull requests.
+
+ License
+
+This project is licensed under the MIT License.
+
+💖 Acknowledgement
+
+Built with the aim to support women’s mental and physical wellness, encourage self-care, and provide safety and community support.
+
